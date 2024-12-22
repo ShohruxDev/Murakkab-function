@@ -1,0 +1,182 @@
+body {
+  overflow: hidden;
+  background-color: rgb(243, 242, 248);
+}
+
+.air {
+  position: relative;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.gh {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.tight {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80%;
+  border-radius: 30px;
+  border: 6px solid white;
+}
+
+.tih {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  height: 86%;
+  position: relative;
+}
+
+header {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
+  margin-top: 15px;
+}
+header img {
+  cursor: pointer;
+}
+
+.soz {
+  position: absolute;
+  top: 15%;
+  z-index: 4;
+}
+.soz p {
+  font-size: 120px;
+  font-family: sans-serif;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+
+.sozz {
+  position: absolute;
+  top: -60px;
+  z-index: 5;
+}
+.sozz img {
+  width: 70%;
+  margin-left: 220px;
+  cursor: pointer;
+}
+
+.kl {
+  width: 120px;
+  height: 120px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 50%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 7;
+  cursor: pointer;
+  margin-top: 280px;
+  margin-left: 415px;
+  border: 3px solid white;
+  transition: all 0.3s;
+}
+.kl:hover {
+  background-color: rgba(251, 246, 246, 0.7);
+}
+.kl .jk {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  justify-content: space-between;
+}
+.kl .jk p {
+  color: rgb(50, 50, 50);
+  font-size: 22px;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+
+.dg {
+  position: absolute;
+  margin-left: -900px;
+  margin-top: 120px;
+}
+.dg img {
+  width: 70%;
+}
+
+.bf {
+  position: absolute;
+  right: 20px;
+  top: 54%;
+}
+.bf p {
+  font-size: 32px;
+  font-weight: 500;
+  width: 15%;
+  color: rgb(255, 255, 255);
+}
+
+.op {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  gap: 760px;
+  margin-top: 20%;
+}
+
+.sf {
+  position: absolute;
+  top: 32%;
+  margin-left: 700px;
+}
+
+.scroll {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: -20px;
+  gap: 130px;
+  margin-left: 50px;
+  position: absolute;
+}
+
+.sc {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.as {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 90px;
+}
+.as p {
+  color: rgb(50, 50, 50);
+  font-weight: 700;
+  width: 200px;
+  margin-left: 100px;
+}
+
+.ad {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.fl {
+  display: flex;
+  gap: 20px;
+}/*# sourceMappingURL=main.css.map */
